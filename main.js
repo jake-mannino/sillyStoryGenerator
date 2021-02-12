@@ -22,8 +22,8 @@ let newStory = storyText;
   let zItem = randomValueFromArray(insertZ);
   
 if(document.getElementById("uk").checked) {
-    const weight = Math.round(300 * 0.714) + ' stone';
-    const temperature =  Math.round((94-32) * 5 / 9) + ' centigrade';
+    const weight = Math.round(300 * 0.714) + 'stone';
+    const temperature =  Math.round((94-32) * 5 / 9) + 'centigrade';
     newStory = newStory.replace('94 fahrenheit',temperature);
     newStory = newStory.replace('300 pounds',weight);
   }
