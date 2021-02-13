@@ -17,9 +17,9 @@ randomize.addEventListener('click', result);
 
 function result() {
 let newStory = storyText;
-  let xItem = randomValueFromArray(insertX);
-  let yItem = randomValueFromArray(insertY);
-  let zItem = randomValueFromArray(insertZ);
+  let xItem = randomValueFromArray(insertx);
+  let yItem = randomValueFromArray(inserty);
+  let zItem = randomValueFromArray(insertz);
   
 if(document.getElementById("uk").checked) {
     const weight = Math.round(300 * 0.714) + ' stone';
