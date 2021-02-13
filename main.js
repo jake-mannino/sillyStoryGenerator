@@ -8,10 +8,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
+let storyText = 'It was 94 fahrenheit outside, so :insertx: went for a walk. When he got to :inserty:, he stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.';
 let insertx = ['Danny Devito','Eric Andre','21 Savage'];
 let inserty = ['the surface of the sun','somewhere in florida','marianas trench'];
-let insertz = ['folded each other in half 6 times','ate biscuits to death','ascended to the 8th dimension'];
+let insertz = ['folded himself in half 6 times','ate biscuits to death','ascended to the 8th dimension'];
 
 randomize.addEventListener('click', result);
 
