@@ -17,9 +17,19 @@ randomize.addEventListener('click', result);
 
 function result() {
 let newStory = storyText;
+  
   let xItem = randomValueFromArray(insertx);
   let yItem = randomValueFromArray(inserty);
   let zItem = randomValueFromArray(insertz);
+  
+  newStory = newStory.replace(':insertx:', xItem);
+  newStory = newStory.replace(':inserty:', yItem);
+  newStory = newStory.replace(':insertz:', zItem);
+  newStory = newStory.replace(':insertx:', xItem);
+  
+ if(customName.value !== '') {
+    let name = customName.value;
+    newStory = newStory.replace('Bob', name);
   
 if(document.getElementById("uk").checked) {
     const weight = Math.round(300 * 0.714) + ' stone';
